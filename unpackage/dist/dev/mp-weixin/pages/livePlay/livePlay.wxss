@@ -1,0 +1,227 @@
+.videoWrap.data-v-03a942f4 {
+  width: 100%;
+  height: 350rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.replayFileContainer .replayFileTitle.data-v-03a942f4 {
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  height: 80rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.replayFileContainer .replayFileTitle .replayIcon .more.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.replayFileContainer .replayFileTitle .replayIcon .more .moreInfo.data-v-03a942f4 {
+  width: 45rpx;
+}
+.replayFileContainer .replayFileTitle .title.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.replayFileContainer .replayListWrap.data-v-03a942f4 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  overflow-y: scroll;
+}
+.replayFileContainer .replayListWrap .replayItem.data-v-03a942f4 {
+  width: 100%;
+  height: 140rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.replayFileContainer .replayListWrap .replayItem .leftWrap.data-v-03a942f4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 14px;
+}
+.replayFileContainer .replayListWrap .replayItem .leftWrap .imageCheckbox.data-v-03a942f4 {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.replayFileContainer .replayListWrap .replayItem .rightWrap.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  width: 180rpx;
+  height: 120rpx;
+}
+.replayFileContainer .replayListWrap .replayItem .rightWrap .imageIcon.data-v-03a942f4 {
+  width: 180rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+}
+.replayFileContainer .replayListWrap .replayItem .rightWrap .isLock.data-v-03a942f4 {
+  width: 54rpx;
+  height: 54rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -27rpx;
+  margin-left: -27rpx;
+  z-index: 999;
+}
+.replayFileContainer .timerWrap.data-v-03a942f4 {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
+.replayFileContainer .timerWrap .settingTime.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.replayFileContainer .timerWrap .settingTime .timerIcon.data-v-03a942f4 {
+  margin-right: 15rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+.replayFileContainer .timerWrap .settingTime .timerText.data-v-03a942f4 {
+  font-size: 14px;
+}
+.replayFileContainer .timerWrap .fileIcon.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.replayFileContainer .timerWrap .fileIcon .fileIconTitle.data-v-03a942f4 {
+  font-size: 14px;
+  padding: 8rpx 25rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.replayFileContainer .timerWrap .fileIcon .icon1.data-v-03a942f4 {
+  border-right: none;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
+.replayFileContainer .timerWrap .fileIcon .imageIcon.data-v-03a942f4 {
+  border-left: none;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+.replayFileContainer .operationWrap.data-v-03a942f4 {
+  height: 80rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 14px;
+}
+.replayFileContainer .operationWrap .listItem.data-v-03a942f4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.replayFileContainer .operationWrap .listItem .allselectLabel.data-v-03a942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.replayFileContainer .operationWrap .listItem .allselectLabel .allSelect.data-v-03a942f4 {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.replayFileContainer .operationWrap .listItem .lockSwith.data-v-03a942f4 {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.replayFileContainer .operationWrap .listItem .loakTitle.data-v-03a942f4 {
+  margin-left: -8rpx;
+}
+.replayFileContainer .operationWrap .loadupWrap image.data-v-03a942f4 {
+  width: 48rpx;
+  margin-right: 10rpx;
+}
+.replayFileContainer .operationWrap .deleteWrap image.data-v-03a942f4 {
+  width: 45rpx;
+  margin-right: 10rpx;
+}
+.replayFileContainer .imageCheckbox.data-v-03a942f4 .uni-checkbox-wrapper .uni-checkbox-input {
+  border-radius: 50% !important;
+}
+

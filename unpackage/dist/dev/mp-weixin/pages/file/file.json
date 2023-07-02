@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的文件",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "file-image": "/components/fileImage/fileImage",
+    "file-video": "/components/fileVideo/fileVideo"
+  }
+}

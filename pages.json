@@ -1,0 +1,164 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+     {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "连接设备"
+      }
+    }, {
+      "path": "pages/file/file",
+      "style": {
+        "navigationBarTitleText": "我的文件",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "type": "back",
+              "float": "left"
+            }, {
+              "type": "menu",
+              "float": "right"
+            }]
+          }
+        }
+
+      }
+
+    }, {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue64d",
+              "fontSrc": "/static/iconfont/iconfont.ttf",
+              "fontSize": "20px",
+              "float": "right",
+              "width": "44px"
+            }]
+          }
+        }
+      }
+
+    }, {
+      "path": "pages/livePlay/livePlay",
+      "style": {
+        "navigationBarTitleText": "视频预览",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/help/help",
+      "style": {
+        "navigationBarTitleText": "帮助",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "关于我们",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/previewVideo/previewVideo",
+      "style": {
+        "navigationBarTitleText": "视频预览",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "type": "menu",
+              "float": "right"
+            }]
+          }
+        }
+
+      }
+
+    }, {
+      "path": "pages/previewImage/previewImage",
+      "style": {
+        "navigationBarTitleText": "图片预览",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "type": "menu",
+              "float": "right"
+            }]
+          }
+        }
+      }
+
+    }, {
+      "path": "pages/setting/setting",
+      "style": {
+        "navigationBarTitleText": "记录仪设置",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/rename/rename",
+      "style": {
+        "navigationBarTitleText": "设备重命名",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/password/password",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "enablePullDownRefresh": false
+      }
+
+  }    ,{
+            "path" : "pages/scanResult/scanResult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "扫码结果",
+                "enablePullDownRefresh": false
+            }
+            
+        }, {
+        "path" : "pages/onloadPage/onloadPage",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "",
+            "navigationStyle":"custom"
+        }
+        
+    }
+  
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#4D4D4D",
+    "selectedColor": "#ff8000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/tabbar/home.png",
+      "selectedIconPath": "static/tabbar/home_select.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/file/file",
+      "iconPath": "static/tabbar/file.png",
+      "selectedIconPath": "static/tabbar/file_select.png",
+      "text": "文件"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "iconPath": "static/tabbar/mine.png",
+      "selectedIconPath": "static/tabbar/mine_select.png",
+      "text": "我的"
+    }]
+  }
+}

@@ -1,0 +1,15 @@
+.deviceRenameWrap.data-v-b30d67f4 {
+  background-color: #fff;
+  padding-left: 20rpx;
+  font-size: 12px;
+  height: 60rpx;
+}
+.saveName.data-v-b30d67f4 {
+  margin-top: 80rpx;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  border-radius: 25px;
+  background-color: #DC851F;
+  color: #fff;
+}
+

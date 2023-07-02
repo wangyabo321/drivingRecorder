@@ -1,0 +1,61 @@
+ .imageContent{
+    padding-top: 20rpx;
+    box-sizing: border-box;
+    .dateTitle{
+      padding-bottom: 4rpx;
+      padding-left: 10rpx;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    .imageMain {
+      display: flex;
+      flex-wrap: wrap;
+      .imageItem {
+        width: 33.33%;
+        padding:0 10rpx;
+        box-sizing: border-box;
+        .imageTimer {
+          font-size: 14px;
+          padding: 8rpx 0;
+          box-sizing: border-box;
+        }
+        .imageBox {
+          position: relative;
+          .imageCheckbox {
+            position: absolute;
+            right: 5rpx;
+            top: 5rpx;
+            z-index: 999;
+            transform: scale(0.8);
+          }
+          image{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .imageCheckbox /deep/ .uni-checkbox-wrapper .uni-checkbox-input {
+    border-radius: 50% !important
+  }
+  // 底部样式
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750rpx;
+    height: 80rpx;
+    background-color: #f59a23;
+    color: #fff;
+    font-size: 15px;
+    z-index: 1000 !important;
+    .footerItem{
+      flex: 1;
+      height: 80rpx;
+      line-height: 80rpx;
+      text-align: center;
+    }
+  }

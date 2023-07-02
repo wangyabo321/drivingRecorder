@@ -1,0 +1,88 @@
+.imageContent.data-v-d4367f78 {
+  padding-top: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.imageContent .dateTitle.data-v-d4367f78 {
+  padding-bottom: 4rpx;
+  padding-left: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+.imageContent .imageMain.data-v-d4367f78 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.imageContent .imageMain .imageItem.data-v-d4367f78 {
+  width: 33.33%;
+  padding: 0 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.imageContent .imageMain .imageItem .imageTimer.data-v-d4367f78 {
+  font-size: 14px;
+  padding: 8rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.imageContent .imageMain .imageItem .imageBox.data-v-d4367f78 {
+  position: relative;
+}
+.imageContent .imageMain .imageItem .imageBox .imageCheckbox.data-v-d4367f78 {
+  position: absolute;
+  right: 5rpx;
+  top: 5rpx;
+  z-index: 999;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.imageContent .imageMain .imageItem .imageBox image.data-v-d4367f78 {
+  width: 100%;
+}
+.imageCheckbox.data-v-d4367f78 .uni-checkbox-wrapper .uni-checkbox-input {
+  border-radius: 50% !important;
+}
+.footer.data-v-d4367f78 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 750rpx;
+  height: 80rpx;
+  background-color: #f59a23;
+  color: #fff;
+  font-size: 15px;
+}
+.footer .footerItem.data-v-d4367f78 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.imageBox.data-v-d4367f78 {
+  position: relative;
+}
+.imageBox .payBtn.data-v-d4367f78 {
+  width: 60rpx !important;
+  height: 60rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30rpx;
+  margin-left: -30rpx;
+}
+
